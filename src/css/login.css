@@ -1,0 +1,46 @@
+.loginBanner{
+    width:100%;
+    background-image: url('../static/image/login/suzhouBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: calc(100% - 200px);
+}
+.loginFooter{
+    width:100%;
+    height:200px;
+}
+.loginFooter>.ant-row>div{
+    height:200px;
+}
+.loginFooter>.ant-row>div>div{
+    width: 100%;
+    height:100%;
+}
+.orgLogo{
+    background: url("../static/image/login/suzhou-logo.png") right center no-repeat;
+    background-size: auto;
+}
+.userInput{
+    padding: 0 32px;
+    margin-top: 52px;
+}
+.userInfo,.password{
+    height:40px;
+    line-height: 40px;
+    text-align: left;
+    position: relative;
+}
+.userInfo{
+    margin-bottom:20px;
+}
+.loginFooter .ant-btn-circle{
+    width:120px;
+    height:120px;
+    line-height: 120px;
+    font-size:42px;
+    margin-top:calc(50% - 60px);
+}
+.erweima{
+    background: url("../static/image/login/erweima.png") center center no-repeat;
+}

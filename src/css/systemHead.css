@@ -1,0 +1,25 @@
+.systemHeader{
+    background:linear-gradient(#0086FF, #02B3FC);
+    padding:0 20px;
+}
+.systemLogo{
+    height: 100%;
+    font-size:28px;
+    color:#fff;
+    background:url("../static/image/header/logo-new.png") left center no-repeat;
+    text-indent: 54px;
+    display: inline-block;
+}
+.headerUserInfo{
+    float: right;
+    text-align: right;
+    color:#fff;
+    font-size:18px;
+}
+.headerUserInfo i{
+    font-style: normal;
+    width:18px;
+    height:18px;
+    background: url("../static/image/header/headPic.svg") center center no-repeat;
+    display: inline-block;
+}
